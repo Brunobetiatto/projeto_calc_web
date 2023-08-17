@@ -1,0 +1,54 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <script defer src="js/index.js"></script> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div> 
+        <h1>CALCULADORA</h1>
+        <section>
+            <label for="isoma1"></label>
+            <input type="number" id="isoma1" name="soma1" placeholder="Numero 1" class="bloco"> 
+            <label for="isoma2"></label>
+            <input type="number" name="soma2" id="isoma2" placeholder="Numero 2" class="bloco">
+            <button type="button" onclick="somar()" class="plus">+</button> 
+            = <input type="number" id="resultado1" placeholder="Resultado" readonly class="resultado"> 
+            <button type="button" onclick="limpar()" class="limpagem">Limpar</button>
+        </section> <br>
+
+        <section>
+            <label for="isub1"></label> 
+            <input type="number" id="isub1" name="sub1" placeholder="Numero 1" class="bloco"> 
+            <label for="isub2"></label> 
+            <input type="number" id="isub2" name="sub2" placeholder="Numero 2" class="bloco"> 
+            <button type="button" onclick="subtrair()" class="plus">-</button>
+            = <input type="number" id="resultado2" placeholder="Resultado" readonly class="resultado"> 
+            <button type="button" onclick="limpar2()" class="limpagem">Limpar</button>
+        </section> <br> 
+
+        <section>
+            <label for="imult1"></label>
+            <input type="number" id="imult1" name="mult1" placeholder="Numero 1" class="bloco"> 
+            <label for="imult2"></label>
+            <input type="number" id="imult2" name="mult2" placeholder="Numero 2" class="bloco">
+            <button type="button" onclick="multiplicar()" class="plus">*</button>
+            = <input type="number" id="resultado3" placeholder="Resultado" class="resultado"> 
+            <button type="button" onclick="limpar3()" class="limpagem">Limpar</button>
+        </section> <br>
+
+         <section>
+            <label for="idiv1"></label> 
+            <input type="number" id="idiv1" name="div1" placeholder="Numero 1" class="bloco"> 
+            <label for="idiv2"></label>
+            <input type="number" id="idiv2" name="div2" placeholder="numero 2" class="bloco"> 
+            <button type="button" onclick="dividir()" class="plus">/</button> 
+            = <input type="number" id="resultado4" placeholder="Resultado" class="resultado"> 
+            <button type="button" onclick="limpar4()" class="limpagem">Limpar</button>
+         </section>
+    </div>
+</body>
+</html>
